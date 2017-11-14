@@ -18,3 +18,20 @@ box that is rendered to the screen.
   - border-box: tells the browser to account for any border and padding in
   the value you specify for width and height. If you set width for 100 pixel,
   then that 100 pixels will included the border padding that you add it.
+
+
+# JS STuff
+- removeEnventListener or addEventListener for capture parameter the difference,
+is that event are execute on how they are defined.
+- Capturing: the event goes down to the element
+  - The last argument if it is true then it is capturing phase, if it is false then bubling phase
+- Bubbling: When an event happens on an element, it first runs the handlers on it,
+then on its parent, then all the way up on other ancestors.
+- event.target, the most deeply nested element that cause the event is called
+a target element, accessible as event.target
+- Any event handler can stop the event by calling event.stopPropagation()
+
+
+# Minimax STuff
+- [minimax article] (https://medium.freecodecamp.org/how-to-make-your-tic-tac-toe-game-unbeatable-by-using-the-minimax-algorithm-9d690bad4b37)
+- [Tic-tac-toe Tutorial] (https://www.youtube.com/watch?v=P2TcQ3h0ipQ)
